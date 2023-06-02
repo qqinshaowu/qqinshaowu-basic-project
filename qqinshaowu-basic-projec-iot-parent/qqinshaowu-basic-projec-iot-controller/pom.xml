@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>qqinshaowu-basic-projec-iot-parent</artifactId>
+        <groupId>com.qqinshaowu</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.qqinshaowu</groupId>
+    <artifactId>qqinshaowu-basic-projec-iot-controller</artifactId>
+    <name>qqinshaowu-basic-projec-iot-controller</name>
+    <description>the project is basic project</description>
+
+
+
+    <dependencies>
+
+        <!--
+
+        这是一个Maven依赖，它表示Spring Boot应用程序的Web模块的启动器依赖。它包含了Spring Boot应用程序中使用的Web框架所需的所有依赖项，包括Spring MVC、Tomcat、Jackson等。
+        具体来说，这个依赖项包含了以下依赖项：
+        spring-boot-starter: Spring Boot应用程序的核心启动器依赖。
+        spring-boot-starter-tomcat: 内嵌Tomcat服务器的启动器依赖。
+        spring-web: Spring Web框架的核心依赖。
+        spring-webmvc: Spring MVC框架的依赖。
+        jackson-databind: Jackson JSON库的依赖。
+        使用这个依赖项可以使得开发人员更加方便地开发Web应用程序，无需手动配置Spring MVC和Tomcat等组件。同时，它还可以避免依赖项版本不一致导致的冲突和错误，使得开发人员更加专注于业务逻辑的实现。-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!--添加了这两个maven依赖，swagger注解才能使用-->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-common</artifactId>
+            <version>${springdoc.version}</version>
+        </dependency>
+
+
+
+    </dependencies>
+
+</project>

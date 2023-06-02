@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>qqinshaowu-basic-project</artifactId>
+        <groupId>com.qqinshaowu</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.qqinshaowu</groupId>
+    <artifactId>qqinshaowu-basic-projec-iot-parent</artifactId>
+    <name>qqinshaowu-basic-projec-iot-parent</name>
+    <packaging>pom</packaging>
+
+
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            &lt;!&ndash;必须与 settings.xml 的 id 一致&ndash;&gt;-->
+<!--            <id>freshconnectdevelop-yogurtcat-maven-artifacts</id>-->
+<!--            <name>maven-artifacts</name>-->
+<!--            <url>https://freshconnectdevelop-maven.pkg.coding.net/repository/yogurtcat/maven-artifacts/</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
+
+
+    <modules>
+        <module>qqinshaowu-basic-projec-iot-controller</module>
+    </modules>
+
+
+</project>
